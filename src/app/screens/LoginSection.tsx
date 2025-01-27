@@ -36,7 +36,7 @@ export default function LoginSection() {
     }
   }, [watchPassword, errors.password, clearErrors]);
 
-  const onSubmit = (data: { email: string; password: string }) => {
+  const onSubmit = () => {
     reset();
     clearErrors()
   };
